@@ -84,7 +84,7 @@ React나 Vue를 통해 브라우저에서 동적으로 마운트되는 알림받
 ```jsx
 const MyComponent = () => {
     useEffect(() => {
-        // DOM 마운트 후 알림받기 버튼을 랜더링ㅇ합니다.
+        // DOM 마운트 후 알림받기 버튼을 랜더링합니다.
         NaverTalkSDK.Friend.renderButton()
     }, [])
 
@@ -103,7 +103,7 @@ const MyComponent = () => {
 <script>
 export default {
   mounted() {
-    // DOM 마운트 후 알림받기 버튼을 랜더링ㅇ합니다.
+    // DOM 마운트 후 알림받기 버튼을 랜더링합니다.
     NaverTalkSDK.Friend.renderButton()
   }
 }
